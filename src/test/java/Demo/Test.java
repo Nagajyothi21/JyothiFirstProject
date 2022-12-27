@@ -17,5 +17,6 @@ public class Test {
          driver.get("https://www.flipkart.com/");
         driver.findElement(By.xpath("//button[ text()='✕']")).click();
         driver.findElement(By.xpath("//input[@ name='q']")).sendKeys("iphonex");
+        System.out.println("Completed");
     }
 }
